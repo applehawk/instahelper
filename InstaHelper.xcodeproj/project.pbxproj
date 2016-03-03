@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309B9B0CFEFC2596EED68E05 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E57CA9C4EA3D6F9AC1F1C9 /* libPods.a */; };
+		7E24B9A91C4FD9D400C1BACB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E24B9A81C4FD9D400C1BACB /* CollectionViewController.swift */; };
+		7E24B9AB1C4FDD0A00C1BACB /* AuthorizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E24B9AA1C4FDD0A00C1BACB /* AuthorizeViewController.swift */; };
 		7E5F85731C4AB8A500E77679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F85721C4AB8A500E77679 /* AppDelegate.swift */; };
-		7E5F85751C4AB8A500E77679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F85741C4AB8A500E77679 /* ViewController.swift */; };
 		7E5F85781C4AB8A500E77679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F85761C4AB8A500E77679 /* Main.storyboard */; };
 		7E5F857A1C4AB8A500E77679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F85791C4AB8A500E77679 /* Assets.xcassets */; };
 		7E5F857D1C4AB8A500E77679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F857B1C4AB8A500E77679 /* LaunchScreen.storyboard */; };
+		7E7B49F31C51A0AB00E6984A /* InstaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B49F21C51A0AB00E6984A /* InstaDetailViewController.swift */; };
+		7E8A5D861C4AB99F00DDAF53 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7E8A5D851C4AB99F00DDAF53 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E24B9A81C4FD9D400C1BACB /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		7E24B9AA1C4FDD0A00C1BACB /* AuthorizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizeViewController.swift; sourceTree = "<group>"; };
 		7E5F856F1C4AB8A500E77679 /* InstaHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E5F85721C4AB8A500E77679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E5F85741C4AB8A500E77679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E5F85721C4AB8A500E77679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = InstaHelper/AppDelegate.swift; sourceTree = "<group>"; };
 		7E5F85771C4AB8A500E77679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E5F85791C4AB8A500E77679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E5F85791C4AB8A500E77679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = InstaHelper/Assets.xcassets; sourceTree = "<group>"; };
 		7E5F857C1C4AB8A500E77679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E5F857E1C4AB8A500E77679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5F857E1C4AB8A500E77679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = InstaHelper/Info.plist; sourceTree = "<group>"; };
+		7E7B49F21C51A0AB00E6984A /* InstaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaDetailViewController.swift; sourceTree = "<group>"; };
+		7E8A5D811C4AB90500DDAF53 /* InstaHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "InstaHelper-Bridging-Header.h"; path = "InstaHelper/InstaHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E8A5D851C4AB99F00DDAF53 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		876EF25E959D4725125907AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		950E7BB8BA2AB8D10B14925C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E57CA9C4EA3D6F9AC1F1C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309B9B0CFEFC2596EED68E05 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FBDA587837A01E8417E8357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E57CA9C4EA3D6F9AC1F1C9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E5F85661C4AB8A500E77679 = {
 			isa = PBXGroup;
 			children = (
+				7E7B49F11C5196AB00E6984A /* App */,
 				7E5F85711C4AB8A500E77679 /* InstaHelper */,
 				7E5F85701C4AB8A500E77679 /* Products */,
+				FCE9ADCFF71628B47CA797B5 /* Pods */,
+				3FBDA587837A01E8417E8357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,34 @@
 		7E5F85711C4AB8A500E77679 /* InstaHelper */ = {
 			isa = PBXGroup;
 			children = (
-				7E5F85721C4AB8A500E77679 /* AppDelegate.swift */,
-				7E5F85741C4AB8A500E77679 /* ViewController.swift */,
 				7E5F85761C4AB8A500E77679 /* Main.storyboard */,
+				7E24B9AA1C4FDD0A00C1BACB /* AuthorizeViewController.swift */,
+				7E24B9A81C4FD9D400C1BACB /* CollectionViewController.swift */,
+				7E7B49F21C51A0AB00E6984A /* InstaDetailViewController.swift */,
+			);
+			path = InstaHelper;
+			sourceTree = "<group>";
+		};
+		7E7B49F11C5196AB00E6984A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A5D851C4AB99F00DDAF53 /* Podfile */,
+				7E5F85721C4AB8A500E77679 /* AppDelegate.swift */,
 				7E5F85791C4AB8A500E77679 /* Assets.xcassets */,
 				7E5F857B1C4AB8A500E77679 /* LaunchScreen.storyboard */,
 				7E5F857E1C4AB8A500E77679 /* Info.plist */,
+				7E8A5D811C4AB90500DDAF53 /* InstaHelper-Bridging-Header.h */,
 			);
-			path = InstaHelper;
+			name = App;
+			sourceTree = "<group>";
+		};
+		FCE9ADCFF71628B47CA797B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				950E7BB8BA2AB8D10B14925C /* Pods.debug.xcconfig */,
+				876EF25E959D4725125907AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E5F85811C4AB8A500E77679 /* Build configuration list for PBXNativeTarget "InstaHelper" */;
 			buildPhases = (
+				21117D23ADD94B4CEC5A8B50 /* Check Pods Manifest.lock */,
 				7E5F856B1C4AB8A500E77679 /* Sources */,
 				7E5F856C1C4AB8A500E77679 /* Frameworks */,
 				7E5F856D1C4AB8A500E77679 /* Resources */,
+				A8EB9B321FC7B2388E0B2649 /* Embed Pods Frameworks */,
+				E874696671D591F8BCA7960C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +171,70 @@
 			files = (
 				7E5F857D1C4AB8A500E77679 /* LaunchScreen.storyboard in Resources */,
 				7E5F857A1C4AB8A500E77679 /* Assets.xcassets in Resources */,
+				7E8A5D861C4AB99F00DDAF53 /* Podfile in Resources */,
 				7E5F85781C4AB8A500E77679 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21117D23ADD94B4CEC5A8B50 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8EB9B321FC7B2388E0B2649 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E874696671D591F8BCA7960C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E5F856B1C4AB8A500E77679 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5F85751C4AB8A500E77679 /* ViewController.swift in Sources */,
+				7E24B9A91C4FD9D400C1BACB /* CollectionViewController.swift in Sources */,
 				7E5F85731C4AB8A500E77679 /* AppDelegate.swift in Sources */,
+				7E24B9AB1C4FDD0A00C1BACB /* AuthorizeViewController.swift in Sources */,
+				7E7B49F31C51A0AB00E6984A /* InstaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +255,7 @@
 				7E5F857C1C4AB8A500E77679 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = InstaHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,23 +346,30 @@
 		};
 		7E5F85821C4AB8A500E77679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950E7BB8BA2AB8D10B14925C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InstaHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hawk.InstaHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaHelper/InstaHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7E5F85831C4AB8A500E77679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876EF25E959D4725125907AB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = InstaHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hawk.InstaHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstaHelper/InstaHelper-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +392,7 @@
 				7E5F85831C4AB8A500E77679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
